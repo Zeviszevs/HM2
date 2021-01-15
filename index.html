@@ -1,37 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <div><table border="5">
-        <tr><td>Имя</td><td>Фамилия</td><td>Телфон</td><td>E-mail</td></tr>
-        <tr><td>Роман</td><td>Капелов</td><td>78-5-874</td><td>4356@gmail.com</td></tr>
-        <tr><td>Михаил</td><td>Смирнов</td><td>45-8-845</td><td>6890@gmail.com</td></tr>
-        <tr><td>Сергей</td><td>Петров</td><td>65-2-587</td><td>7898@gmail.com</td></tr>
-        <tr><td>Андрей</td><td>Красильников</td><td>45-8-742</td><td>7645@gmail.com</td></tr>
-</table></div> 
-<p><div><input value="Ведите Ваше Имя"></div></p>
-<p><div><input value="Ведите Вашу Фамилию"></div></p>
 
-<p><b>Какой Ваш Пол?</b></p>
-<p><input type="radio" name="option1" id="a1"  checked>Мужской
-<p><input type="radio" name="option1" id="a2">Женский</p>
- <textarea name="" placeholder="Напишите Свой Вопрос" cols="25" rows="5"></textarea>
- <p>
-     <p><select value="" id="">
-         <option hidden="">Выберете Город</option>
-         <option value="">Львов</option>
-         <option value="">Харьков</option>
-         <option value="">Києв</option>
-     </select></p>
- </p><b>Выбор Языка</b><br>
- <input type="checkbox" name="option1" id="a1">Ураїнська<br>
- <input type="checkbox" name="option2" id="a2">Русский<br>
- <input type="checkbox" name="option3" id="a3">English<br>
- <p><input type="submit" value="Отправить"></p>
+<body>
+    <div>
+        <table border="5">
+            <tr>
+                <td>Имя</td>
+                <td>Фамилия</td>
+                <td>Телфон</td>
+                <td>E-mail</td>
+            </tr>
+            <tr>
+                <td>Роман</td>
+                <td>Капелов</td>
+                <td>78-5-874</td>
+                <td>4356@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Михаил</td>
+                <td>Смирнов</td>
+                <td>45-8-845</td>
+                <td>6890@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Сергей</td>
+                <td>Петров</td>
+                <td>65-2-587</td>
+                <td>7898@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Андрей</td>
+                <td>Красильников</td>
+                <td>45-8-742</td>
+                <td>7645@gmail.com</td>
+            </tr>
+        </table>
+    </div>
+    <p>
+        <div><input placeholder="Ведите Ваше Имя"></div>
+    </p>
+    <p>
+        <div><input placeholder="Ведите Вашу Фамилию"></div>
+    </p>
+
+    <p><b>Какой Ваш Пол?</b></p>
+
+    <label for="a1">Мужской</label>
+    <input type="radio" name="option1" id="a1" checked><br>
+
+    <label for="a2">Женский</label>
+    <input type="radio" name="option1" id="a2">
+    <div>
+        <textarea name="" placeholder="Напишите Свой Вопрос" cols="25" rows="5"></textarea>
+    </div>
+    <p><select>
+            <option disabled selected>Выберете Город</option>
+            <option value="Львов">Львов</option>
+            <option value="Харьков">Харьков</option>
+            <option value="Киев">Киев</option>
+        </select></p>
+    <b>Выбор Языка</b><br>
+    <input type="checkbox" name="option1" id="a1">Ураїнська<br>
+    <input type="checkbox" name="option2" id="a2">Русский<br>
+    <input type="checkbox" name="option3" id="a3">English<br>
+    <p><input type="button" value="Отправить"></p>
 
 </body>
+
 </html>
